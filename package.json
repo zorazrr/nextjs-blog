@@ -3,15 +3,21 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "prettier": "npx prettier --write ."
   },
   "dependencies": {
+    "create-next-app": "^12.2.0",
     "date-fns": "^2.28.0",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "remark": "^14.0.2",
-    "remark-html": "^15.0.1"
+    "remark-html": "^15.0.1",
+    "vercel": "^26.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
   }
 }
